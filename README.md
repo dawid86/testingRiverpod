@@ -1,16 +1,13 @@
-# myapp
+# myapp - testing Riverpod provider
 
 a flutter project with riverpod provider
 
-## Getting Started
+## Getting started with Riverpod
 
-This project is a starting point for a Flutter application.
+This project is a playground for Riverpod. It is not a design masterpiece, but it works :)
 
-A few resources to get you started if this is your first Flutter project:
+Current version use global variables to pass values between screens.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+I'm trying to solve why using class variables throws Flutter framework error:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+>'package:flutter/src/widgets/framework.dart': Failed assertion: line 4692 pos 14: 'owner!._debugCurrentBuildTarget == this': is not true.
